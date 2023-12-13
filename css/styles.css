@@ -70,8 +70,8 @@ h3 {
   overflow: hidden;
 }
 .section {
- padding-top: 120px;
- padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .container {
   width: 1158px;
@@ -79,17 +79,16 @@ h3 {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
 }
 /* Section 0 --> Header */
 .header {
-  border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
-.header-container{
+.header-container {
   display: flex;
-  
+
   align-items: center;
-    /* Default properties */
+  /* Default properties */
   /* flex-direction: row; */
   /* justify-content: flex-start; */
   /* align-items: stretch; */
@@ -101,7 +100,6 @@ h3 {
   align-items: center;
   /* margin-right: 322px; */
   margin-right: auto;
-
 }
 .header-logo {
   color: #4d5ae5;
@@ -127,11 +125,10 @@ h3 {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.header-link{
+.header-link {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
-
 }
 
 .header-link:focus,
@@ -161,8 +158,8 @@ h3 {
 .order {
   background: #2e2f42;
 }
-.order-container{
-  padding-top: 188px ;
+.order-container {
+  padding-top: 188px;
 }
 .order-title {
   width: 496px;
@@ -187,7 +184,6 @@ h3 {
   padding: 16px 32px;
   border-radius: 4px;
   margin-left: 495px;
-
 }
 
 .order-button:hover,
@@ -212,7 +208,6 @@ h3 {
   width: 264px;
   flex-direction: column;
   gap: 8px;
-
 }
 .features-caption {
   color: #2e2f42;
@@ -243,23 +238,20 @@ h3 {
   display: flex;
   gap: 24px;
 }
-.card-content{
-display: flex;
-width: 232px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 8px;
-margin-bottom: 32px;
+.card-content {
+  display: flex;
+  width: 232px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 .team-item {
   background: #fff;
   border-radius: 0px 0px 4px 4px;
-  
 }
 .team-icon {
   margin-bottom: 32px;
-  
 }
 .team-member {
   color: #2e2f42;
@@ -275,9 +267,27 @@ margin-bottom: 32px;
 .portfolio {
 }
 .portfolio-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.porfolio-card {
+  display: flex;
+  padding: 0px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
 }
 .portfolio-item {
   background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  width: calc((100% - 24px * 2) / 3);
 }
 .portfolio-icon {
 }
@@ -308,6 +318,7 @@ margin-bottom: 32px;
   color: #f4f4fd;
 }
 .footer-desc {
+  width: 264px;
   color: #f4f4fd;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
