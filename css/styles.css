@@ -202,8 +202,17 @@ h3 {
 .features {
 }
 .features-list {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
 }
 .features-item {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  gap: 8px;
+
 }
 .features-caption {
   color: #2e2f42;
@@ -231,11 +240,26 @@ h3 {
   margin-left: auto;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
+}
+.card-content{
+display: flex;
+width: 232px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
+margin-bottom: 32px;
 }
 .team-item {
   background: #fff;
+  border-radius: 0px 0px 4px 4px;
+  
 }
 .team-icon {
+  margin-bottom: 32px;
+  
 }
 .team-member {
   color: #2e2f42;
