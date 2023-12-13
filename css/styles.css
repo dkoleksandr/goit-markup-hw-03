@@ -209,10 +209,10 @@ h3 {
   display: flex;
   width: 264px;
   flex-direction: column;
-  gap: 8px;
 }
 .features-caption {
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .features-desc {
   line-height: 1.5; /* 150% */
