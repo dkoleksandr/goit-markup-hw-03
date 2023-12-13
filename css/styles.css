@@ -159,10 +159,10 @@ h3 {
   background: #2e2f42;
 }
 .order-container {
-  padding-top: 188px;
+  padding: 188px 0px;
 }
 .order-title {
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
@@ -183,7 +183,9 @@ h3 {
   letter-spacing: 0.04em;
   padding: 16px 32px;
   border-radius: 4px;
-  margin-left: 495px;
+  /* margin-left: 495px; */
+  display: block;
+  margin: auto;
 }
 
 .order-button:hover,
