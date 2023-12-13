@@ -284,13 +284,13 @@ h3 {
   align-items: flex-start;
   /* gap: 8px; */
   align-self: stretch;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-item {
   background: #fff;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border: 1px solid #e7e9fc;
   width: calc((100% - 24px * 2) / 3);
 }
 .portfolio-icon {
