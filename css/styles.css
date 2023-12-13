@@ -69,8 +69,9 @@ h3 {
   clip-path: inset(50%);
   overflow: hidden;
 }
+
 .section {
-  padding: 120px 0px;
+  padding: 120px 0;
   /* padding-bottom: 120px; */
 }
 .container {
@@ -159,7 +160,7 @@ h3 {
   background: #2e2f42;
 }
 .order-container {
-  padding: 188px 0px;
+  padding: 188px 0;
 }
 .order-title {
   max-width: 496px;
