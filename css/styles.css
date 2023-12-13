@@ -56,7 +56,28 @@ h3 {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
 }
-
+/* Common Styles */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+}
+.section {
+ 
+}
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 /* Section 0 --> Header */
 .header {
 }
